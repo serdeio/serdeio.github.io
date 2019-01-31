@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 1
 ---
 
 <script defer src="https://s3.us-east-2.amazonaws.com/serde/serde.js"></script>
@@ -19,7 +20,7 @@ permalink: /about/
 # Serde
 0 to SQL in 60 Seconds
 
-<a class="btn btn-large btn-success" href="#" onclick="fire();">Send Test Track</a>
+<button name="button" onclick="fire();">Send Test Track</button>
 
 <script>
     function fire() {
